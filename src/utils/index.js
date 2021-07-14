@@ -33,10 +33,10 @@ exports.update = (movieList) => {
     const update = { title: yargs.argv.movie, actor: yargs.argv.actor };
     target = process.argv[3];
     newMovie = process.argv[4];
-    movieList[0].splice(update)
+    movieList[0].splice(update, 1)
     for (let i = 0; i < movieList.length; i++) {
-      if (target == movieList[i].movie) {
-        movieList[i].movie = newMovie;
+      if (target == movieList[i].update) {
+        movieList[i].update = newMovie;
         let stringMovieList = JSON.stringify(movieList).flat(1);
         fs.writeFileSync("./netflix.json", stringMovieList);
         console.log(movieList);

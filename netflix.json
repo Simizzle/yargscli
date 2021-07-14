@@ -1,1 +1,7 @@
-[{"title":"Captain Marvel","actor":"Brie Larson"},{"title":"Captain America","actor":"Chris Evans"},{"title":"Captain America","actor":"Chris Evans"},{"title":"The Hulk","actor":"Eric Bana"}]
+[
+  { "title": "Captain Marvel", "actor": "Brie Larson" },
+  { "title": "Captain America", "actor": "Chris Evans" },
+  { "title": "Captain America", "actor": "Chris Evans" },
+  { "title": "The Hulk", "actor": "Eric Bana" },
+  { "title": "Captain America", "actor": "Chris Evans" }
+]
